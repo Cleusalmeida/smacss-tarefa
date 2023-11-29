@@ -15,7 +15,6 @@
 
 .produto {
     &__produto {
-
     }
 
     &__imagem {
@@ -24,17 +23,23 @@
 
     &__nome {
         font-size: 1.2em;
-    margin: 8px 0;
+        margin: 8px 0;
     }
 
     &__descricao {
         color: gray;
     }
 
-    &__em-destaque {
+    &--destaque {
         border: 2px solid gold;
-    padding: 8px;
-    background-color: #ffff42;
+        padding: 8px;
+        background-color: #ffff42;
     }
+
 }
+
+
+
+
+
 
